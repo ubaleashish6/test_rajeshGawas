@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.hailo.qa.testcases.LoginPageTest"/>
+<!--       <class name="testCases.FirstTestCase"/> -->
+<!--       <class name="testCases.Try"/> -->
+      <class name="com.hailo.qa.testcases.AddPromoItemTest"/>
+      <class name="com.hailo.qa.testcases.AddSupplierTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
